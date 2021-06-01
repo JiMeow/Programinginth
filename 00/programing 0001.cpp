@@ -1,0 +1,35 @@
+#include<stdlib.h>
+#include<stdio.h>
+main()
+{
+	int a,b,c,d;
+	scanf("%d",&a);
+	scanf("%d",&b);
+	scanf("%d",&c);
+	d=a+b+c;
+	if(80<=d&&d<=100){
+		printf("A");
+	}
+	if(75<=d&&d<=79){
+		printf("B+");
+	}
+	if(70<=d&&d<=74){
+		printf("B");
+	}
+	if(65<=d&&d<=69){
+		printf("C+");
+	}
+	if(60<=d&&d<=64){
+		printf("C");
+	}
+	if(55<=d&&d<=59){
+		printf("D+");
+	}
+	if(50<=d&&d<=54){
+		printf("D");
+	}
+	if(0<=d&&d<=49){
+		printf("F");
+	}
+}
+	

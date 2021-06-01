@@ -1,0 +1,32 @@
+#include<stdlib.h>
+#include<stdio.h>
+#include<string.h>
+main(){
+	int a,b,c,d;
+	scanf("%d",&a);
+	scanf("%d",&b);
+	if(a!=0&&b!=0){
+	while(true){
+		if(a<b){
+			c=a;
+			a=b;
+			b=c;
+		}
+		c=a%b;
+		a=b;
+		b=c;
+		if(c==0){
+			break;
+		}
+	}
+	printf("%d",a);
+}
+else{
+	if(a<b){
+			c=a;
+			a=b;
+			b=c;
+		}
+	printf("%d",a);
+}
+}
